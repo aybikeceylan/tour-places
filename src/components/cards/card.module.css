@@ -39,3 +39,36 @@ img {
 .image:hover .desc {
   bottom: 0;
 }
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100vw;
+  }
+  .image {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+  }
+  .desc {
+    position: absolute;
+    z-index: 1;
+    bottom: -60%;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.541);
+    transition: all 1.2s;
+  }
+  .image:active {
+    filter: grayscale(100%);
+  }
+  .image:active .desc {
+    bottom: 0;
+  }
+}
