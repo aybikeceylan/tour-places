@@ -28,7 +28,7 @@ img {
 .desc {
   position: absolute;
   z-index: 1;
-  bottom: -60%;
+  bottom: -70%;
   color: white;
   font-size: 0.8rem;
   padding: 0.5rem;
@@ -63,7 +63,7 @@ img {
   .desc {
     position: absolute;
     z-index: 1;
-    bottom: -60%;
+    bottom: -70%;
     color: white;
     font-size: 0.8rem;
     padding: 0.5rem;
